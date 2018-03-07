@@ -1,0 +1,21 @@
+<header class="site-header">
+  <nav data-rmd>
+    <span class="site-title">
+      <a href="{{ "/" | prepend: site.url }}">{{ site.title }}</a>
+      {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+      {% for post in posts %}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a>
+      {% endfor %}
+      {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+      {% for page in pages %}
+        <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a>
+      {% endfor %}
+    </span>
+    <a href="{{ "/about" | prepend: site.url }}">About</a>
+    <a href="{{ "/articles" | prepend: site.url }}">Articles</a>
+    <a href="{{ "/feed.xml" | prepend: site.url }}">Feed</a>
+    {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}" title="Github">Github</a>
+    {% endif %}
+  </nav>
+</header>
