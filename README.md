@@ -1,4 +1,8 @@
-# Instruction
+# [ggoral.github.io](https://ggoral.github.io)
+
+Welcome this is Gonzalo Goral's personal website
+
+## Instruction
 
  ```sh
  gem install jekyll bundler
@@ -17,7 +21,7 @@
 5. Create new Pull Request
 
 
-# Thanks to
+## Thanks to
 + [Nicanor Perera](https://github.com/nicanor/)
 + [Christopher Adams](https://github.com/christopheradams/)
 + [Sylvain Durand](https://github.com/sylvaindurand/jekyll-multilingual/)
