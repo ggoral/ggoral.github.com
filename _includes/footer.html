@@ -1,16 +1,11 @@
 <footer class="footer" data-rmd>
-	<div class="footer-inner" style='text-align:center;'>
-
-		<p>Created by <a href="/about">{{ site.author }}</a></p>
-
-		<ul >
-			{% if site.github_username %}
-				 <a href="https://github.com/{{ site.github_username }}" title="Github">Github</a>
-			{% endif %}
-				-
-      {% if site.license %}
-         <a href="{{ site.license_url }}">License</a>
-      {% endif %}
-    </ul>
-	</div>
+	<a href="/about">{{ site.author }}</a>
+		-
+	{% if site.github_username %}
+		 <a href="https://github.com/{{ site.github_username }}" title="Github">Github</a>
+	{% endif %}
+		-
+  {% if site.license %}
+     <a href="{{ site.license_url }}">License</a>
+  {% endif %}
 </footer>

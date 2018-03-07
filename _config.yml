@@ -20,6 +20,10 @@ source_url: "https://github.com/ggoral/ggoral.github.io/blob/master/"
 
 permalink: /:categories/:year/:month/:title/
 
+index:
+  en:
+  es: indice.html
+
 title: ggoral.github.io
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this

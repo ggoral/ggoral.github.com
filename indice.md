@@ -1,8 +1,8 @@
 ---
 layout: page
-title: index
-lang: en
+title: Indice
+lang: es
 ref: index
 ---
 
-Hello
+Hola
