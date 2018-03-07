@@ -7,3 +7,7 @@
  bundle install
  bundle exec jekyll build
  ```
+# Thanks to
++ [Nicanor Perera](https://github.com/nicanor/)
++ [Christopher Adams](https://github.com/christopheradams/)
++ [Sylvain Durand](https://github.com/sylvaindurand/jekyll-multilingual/)

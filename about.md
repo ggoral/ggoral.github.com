@@ -1,18 +1,20 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About me
+permalink: /about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<img style="width:100%;" src="../img/ggoral.jpg"/>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<span id="years-of-experience"></span> years of experience in open source.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
+<script>
+function timeSince(date) {
+  var miliseconds = Math.floor((new Date() - date));
+  return Math.floor(miliseconds / 31536000000);
+}
+var yearsOfExperience = timeSince(new Date('2002-01-01'));
+document.getElementById("years-of-experience").innerHTML = yearsOfExperience;
+</script>
 
 [jekyll-organization]: https://github.com/jekyll

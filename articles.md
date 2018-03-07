@@ -6,16 +6,6 @@ lang: en
 
 This is a few list of all articles
 
-{% assign posts=site.posts %}
-<ul>
-{% for post in posts %}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }} [{{ post.lang }}]</a>
-    </li>
-{% endfor %}
-
-</ul>
-
 {% assign posts=site.posts | where:"lang", page.lang %}
 <ul>
 {% for post in posts %}
