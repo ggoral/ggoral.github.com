@@ -5,4 +5,4 @@ lang: es
 ref: index
 ---
 
-Hola
+Bienvenido al Blog de Gonzalo Goral

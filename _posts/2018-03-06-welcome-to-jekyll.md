@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2018-03-06 20:47:52 -0300
-categories: jekyll update
+categories: devops 
 lang: en
 ref: 2018-03-06-welcome-to-jekyll
 ---

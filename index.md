@@ -5,4 +5,4 @@ lang: en
 ref: index
 ---
 
-Hello
+Welcome to Gonzalo Goral's Blog
