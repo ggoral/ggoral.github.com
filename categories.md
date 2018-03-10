@@ -2,22 +2,27 @@
 layout: page
 permalink: /categories/
 title: Categories
+lang: en
 ---
-
 
 <div id="archives">
 {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
 
     <h3 class="category-head" id="{{ category_name }}">{{ category_name }}</h3>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-        <a href="{{ post.url }}">{{ post.title }} [{{ post.lang }}]</a>
-    </article>
+    {% assign posts=site.posts | where:"lang", page.lang %}
+    {% for post in posts  %}
+          <article>
+          {% if post.categories contains category_name %}
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            {% assign langs=site.posts | where:"ref", post.ref %}
+            {% for page in langs %}
+              <a href="{{ page.url }}">{{ page.lang }}</a>
+            {% endfor %}
+          {% endif %}
+          </article>
     {% endfor %}
-  </div>
+
+
 {% endfor %}
-</div>
