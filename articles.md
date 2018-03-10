@@ -9,7 +9,7 @@ In this section you will find the information you need of all articles
 ## Categories
 {% for category in site.categories %}
 <p>
-  <a href="#{{ category[0] | slugify }}">
+  <a href="/categories#{{ category[0] | slugify }}">
     {{ category[0] | capitalize }}
   </a>
  ({{ category[1].size }})

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introducción a Docker"
+title:  "Docker Introduction"
 date:   2018-03-06 20:47:52 -0300
 categories: devops docker
 lang: en
@@ -9,12 +9,13 @@ ref: 2018-03-07-docker-introduction
 
 ## Abstract
 
+//Translate
 Después de leer infinidad de sitios relacionados con Docker calificar algunos de ellos con algún criterio simple da como resultado un numero finito de ellos.
 La versión oficial es siempre la mejor, en este caso la documentación oficial es muy buena pero comprende muchos documentos esto implica una inversión de tiempo significativa.
 
 ## Introduction
 
-Suponiendo que el lector tiene un conocimiento previo sobre "[Que es Docker?][what-docker]", repasaremos dos conceptos importantes que debemos tener en cuenta:
+Suponiendo que el lector tiene un conocimiento previo sobre [Que es Docker?][what-docker], repasaremos dos conceptos importantes que debemos tener en cuenta:
 
 1. Imagen
 2. Contenedor
