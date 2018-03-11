@@ -11,8 +11,7 @@ ref: 2018-03-10-docker-get-started
 
 El primer paso posterior despues de leer la introducción debería ser instalar correctamente docker, podemos seguir los pasos de la [Documentación Oficial][install-docker]
 
-### Sistemas Operativos
-Docker puede ser instalado sobre Linux, Windows, y Mac.
+* Docker puede ser instalado sobre Linux, Windows, y Mac.
 
 ## Ambiente
 
@@ -36,7 +35,7 @@ Images: 0
 {% endhighlight %}
 
 ### Verificación de la instalación
-Probamos que la instalación de docker este corriendo la imagen: `hello-world`
+Probamos que la instalación de docker este corriendo la imagen: **hello-world**
 {% highlight bash %}
 $ docker run hello-world
 {% endhighlight %}
