@@ -9,7 +9,7 @@ ref: 2018-03-29-python-get-started
 
 ## Instalación
 
-Al igual que en otros manuales el primer paso luego de una breve introducción es instalar correctamente el ambiente. La recomendación es siempre la misma, ir a la [documentación oficial][python-oficial],
+Al igual que en otros manuales el primer paso luego de una breve introducción es instalar correctamente el ambiente. La recomendación es siempre la misma leer la [documentación oficial][python-oficial].
 
 * Python puede ser instalado sobre muchos sistemas operativos Linux, Mac y Windows.
 
@@ -123,7 +123,7 @@ En este punto tenemos instalado Python 3 como ambiente de programación para tu 
 
 * [Documentación Oficial][python-oficial]
 * [Comunidad Python Argentina][python-argentina]
-* [Digital Ocean por su excelente tutorial][install-python-digitalocean]
+* [DigitalOcean por su excelente documentación][install-python-digitalocean]
 
 [python-oficial]: https://www.python.org/
 [python-argentina]: http://www.python.org.ar/
