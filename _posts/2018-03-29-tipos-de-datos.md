@@ -30,8 +30,8 @@ nombre_compuesto= "un nombre"
 
 ## Estilo de codificación
 "El código es leído muchas más veces de lo que es escrito" Guido Van Roussen
-* "La legibilidad cuenta" (PEP20 )
-* La PEP8 es una guía de estilo para código Python.
+* "La legibilidad cuenta" [PEP20][PEP0020]
+* La guía de estilo para código Python es la [PEP08][PEP0008].
 
 ## Tipos de datos básicos
 
@@ -49,3 +49,8 @@ Dentro los tipos de datos básicos encontraremos tres grupos.
 ### Númericos
 
 Dentro de los tipos de datos númericos encontraremos los enteros, los flotantes y complejos. También tendremos a los octales y a los hexadecimales.
+
+*
+
+[PEP0008]: https://www.python.org/dev/peps/pep-0008/
+[PEP0020]: https://www.python.org/dev/peps/pep-0020/
