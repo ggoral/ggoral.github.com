@@ -9,11 +9,11 @@ ref: 2018-03-29-python-get-started
 
 ## Instalación
 
-Al igual que en otros cursos el primer luego de una breve introducción es instalar correctamente el ambiente. La recomendación es siempre la misma, ir a la [documentación oficial][python-oficial],
+Al igual que en otros manuales el primer paso luego de una breve introducción es instalar correctamente el ambiente. La recomendación es siempre la misma, ir a la [documentación oficial][python-oficial],
 
 * Python puede ser instalado sobre muchos sistemas operativos Linux, Mac y Windows.
 
-Este curso instalara Python en Ubuntu 16.04 queda a ejercicio del lector instalarlo en su sistema operativo.
+Este manual instalara Python en Ubuntu 16.04 queda a ejercicio del lector instalarlo en su sistema operativo.
 
 ## Instalando Python en Ubuntu 16.04
 
