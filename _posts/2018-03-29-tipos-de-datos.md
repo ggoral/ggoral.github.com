@@ -9,7 +9,7 @@ ref: 2018-03-29-data-types
 
 ## Variables
 
-Las variables son contenedores de datos, en ellas se almacena el valor de algun tipo de dato que el lenguaje soporte. Pueden ser utilizadas para referenciar a otras variables o estructuras mas complejas.
+Las variables son contenedores de datos, en ellas se almacena el valor de algun tipo de dato que el lenguaje soporte. Pueden ser utilizadas para referenciar a otras variables ó a estructuras mas complejas.
 
 * El nombre de las variables puede contener dígitos, letras y símbolo, pero deben comenzar con una letra.
 * Las variables son *case sensitive*.
@@ -31,7 +31,7 @@ nombre_compuesto= "un nombre"
 ## Estilo de codificación
 "El código es leído muchas más veces de lo que es escrito" Guido Van Roussen
 * "La legibilidad cuenta" [PEP20][PEP0020]
-* La guía de estilo para código Python es la [PEP08][PEP0008].
+* La guía de estilo para código Python es la [PEP08][PEP0008]
 
 ## Tipos de datos básicos
 
@@ -49,8 +49,6 @@ Dentro los tipos de datos básicos encontraremos tres grupos.
 ### Númericos
 
 Dentro de los tipos de datos númericos encontraremos los enteros, los flotantes y complejos. También tendremos a los octales y a los hexadecimales.
-
-*
 
 [PEP0008]: https://www.python.org/dev/peps/pep-0008/
 [PEP0020]: https://www.python.org/dev/peps/pep-0020/
