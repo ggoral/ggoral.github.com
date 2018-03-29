@@ -2,7 +2,7 @@
 layout: post
 title:  "Introducción a Docker"
 date:   2018-03-07 20:47:52 -0300
-categories: devops docker
+categories: docker
 lang: es
 ref: 2018-03-07-docker-introduction
 ---

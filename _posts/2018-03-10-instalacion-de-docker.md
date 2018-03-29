@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Empezando"
+title:  "Instalación de Docker"
 date:   2018-03-10 13:00:00 -0300
-categories: devops docker
+categories: docker
 lang: es
 ref: 2018-03-10-docker-get-started
 ---

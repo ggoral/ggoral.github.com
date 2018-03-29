@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Empezando"
+title:  "Primeros pasos en Python"
 date:   2018-03-29 12:12:25 -0300
 categories: python
 lang: es
@@ -9,7 +9,7 @@ ref: 2018-03-29-python-get-started
 
 ## Instalación
 
-Al igual que en otras cursos el primer luego de una breve introducción es instalar correctamente el ambiente. La recomendación es siempre la misma, ir a la [documentación oficial][python-oficial],
+Al igual que en otros cursos el primer luego de una breve introducción es instalar correctamente el ambiente. La recomendación es siempre la misma, ir a la [documentación oficial][python-oficial],
 
 * Python puede ser instalado sobre muchos sistemas operativos Linux, Mac y Windows.
 
@@ -117,7 +117,7 @@ $ ./hello-world.py
 
 ## Conclusiones
 
-A este punto tenemos instalado Python 3 como ambiente de programación en tu maquina con Ubuntu, ahora puedes empezar a escribir código en tu proyecto.
+En este punto tenemos instalado Python 3 como ambiente de programación para tu maquina con Ubuntu, ahora puedes empezar a escribir código en tu proyecto.
 
 ## Referencias y agradecimientos a:
 
