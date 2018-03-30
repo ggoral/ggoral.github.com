@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tipos de Datos"
+title:  "Tipos de Datos Básicos"
 date:   2018-03-29 15:56:30 -0300
 categories: python
 lang: es
@@ -41,7 +41,6 @@ Dentro los tipos de datos básicos encontraremos tres grupos.
 * * Enteros
 * * Flotantes
 * * Complejos
-# https://relopezbriega.github.io/blog/2015/10/12/numeros-complejos-con-python/
 * * Octales
 * * Hexadecimales
 * Booleanos
@@ -51,15 +50,22 @@ Dentro los tipos de datos básicos encontraremos tres grupos.
 
 Dentro de los tipos de datos númericos encontraremos los enteros, los flotantes y complejos.
 
-Tipos Básicos - Enteros
-*  Un octal, anteponiendo un 0o (cero y letra o) o
-*  Un hexadecimal, anteponiendo un 0x:
+#### Enteros
+* Un enteros se declaran directamente con un numero
+* Un octal, anteponiendo un 0o (cero y letra o) o.
+* Un hexadecimal, anteponiendo un 0x.
 
 {% highlight python %}
 var_entero = 2147483647
 var_octal = 0o27
 var_hex = 0x17
 {% endhighlight %}
+
+#### Flotantes
+
+#### Complejos
+# https://relopezbriega.github.io/blog/2015/10/12/numeros-complejos-con-python/
+
 
 [PEP0008]: https://www.python.org/dev/peps/pep-0008/
 [PEP0020]: https://www.python.org/dev/peps/pep-0020/
