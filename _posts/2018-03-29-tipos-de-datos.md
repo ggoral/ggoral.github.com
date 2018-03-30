@@ -7,8 +7,13 @@ lang: es
 ref: 2018-03-29-data-types
 ---
 
-## Variables
+## Estilo de codificación
+"El código es leído muchas más veces de lo que es escrito" Guido Van Roussen
+* "La legibilidad cuenta" [PEP20][PEP0020]
+* La guía de estilo para código Python es la [PEP08][PEP0008]
 
+
+## Variables
 Las variables son contenedores de datos, en ellas se almacena el valor de algun tipo de dato que el lenguaje soporte. Pueden ser utilizadas para referenciar a otras variables ó a estructuras mas complejas.
 
 * El nombre de las variables puede contener dígitos, letras y símbolo, pero deben comenzar con una letra.
@@ -28,21 +33,15 @@ nombre_compuesto = "un nombre"
 {% endhighlight %}
 
 
-## Estilo de codificación
-"El código es leído muchas más veces de lo que es escrito" Guido Van Roussen
-* "La legibilidad cuenta" [PEP20][PEP0020]
-* La guía de estilo para código Python es la [PEP08][PEP0008]
-
 ## Tipos de datos básicos
-
 Dentro los tipos de datos básicos encontraremos tres grupos.
 
 * Númericos
 * * Enteros
-* * Reales
-* * Complejos
 * * Octales
 * * Hexadecimales
+* * Reales
+* * Complejos
 * Booleanos
 * Cadenas de caracteres
 
@@ -80,6 +79,14 @@ c2
 type(c2)
 complex
 {% endhighlight %}
+
+#### Conversiones
+* La división entre enteros redondea para abajo en Python 2.x, en Python 3.x devuelve un float.
+* Existen funciones que realizan conversiones explicitas, como ser float(), int(), str() y long().
+
+
+
+#### Booleanos
 
 
 # Refencias
