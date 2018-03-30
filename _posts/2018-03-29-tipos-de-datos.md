@@ -24,7 +24,7 @@ x, y, z = 3, 5, 7
 print (x, y, z)
 3 5 7
 
-nombre_compuesto= "un nombre"
+nombre_compuesto = "un nombre"
 {% endhighlight %}
 
 
@@ -41,6 +41,7 @@ Dentro los tipos de datos básicos encontraremos tres grupos.
 * * Enteros
 * * Flotantes
 * * Complejos
+# https://relopezbriega.github.io/blog/2015/10/12/numeros-complejos-con-python/
 * * Octales
 * * Hexadecimales
 * Booleanos
@@ -48,7 +49,17 @@ Dentro los tipos de datos básicos encontraremos tres grupos.
 
 ### Númericos
 
-Dentro de los tipos de datos númericos encontraremos los enteros, los flotantes y complejos. También tendremos a los octales y a los hexadecimales.
+Dentro de los tipos de datos númericos encontraremos los enteros, los flotantes y complejos.
+
+Tipos Básicos - Enteros
+*  Un octal, anteponiendo un 0o (cero y letra o) o
+*  Un hexadecimal, anteponiendo un 0x:
+
+{% highlight python %}
+var_entero = 2147483647
+var_octal = 0o27
+var_hex = 0x17
+{% endhighlight %}
 
 [PEP0008]: https://www.python.org/dev/peps/pep-0008/
 [PEP0020]: https://www.python.org/dev/peps/pep-0020/
