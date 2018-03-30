@@ -62,6 +62,13 @@ var_hex = 0x17
 {% endhighlight %}
 
 #### Flotantes
+Se representan mediante los tipos float
+
+{% highlight python %}
+var_real1= 0.2703
+var_real2= 0.1e-3
+{% endhighlight %}
+
 
 #### Complejos
 # https://relopezbriega.github.io/blog/2015/10/12/numeros-complejos-con-python/
