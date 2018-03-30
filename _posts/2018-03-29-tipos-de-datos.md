@@ -81,8 +81,11 @@ type(c2)
 complex
 {% endhighlight %}
 
-# https://relopezbriega.github.io/blog/2015/10/12/numeros-complejos-con-python/
+
+# Refencias
+* [Blog sobre números complejos en python][complex]
 
 
 [PEP0008]: https://www.python.org/dev/peps/pep-0008/
 [PEP0020]: https://www.python.org/dev/peps/pep-0020/
+[complex]: https://relopezbriega.github.io/blog/2015/10/12/numeros-complejos-con-python/
