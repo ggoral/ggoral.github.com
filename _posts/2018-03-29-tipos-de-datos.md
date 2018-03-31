@@ -138,6 +138,25 @@ print (nombre +" "+ apellido)
 print (apellido * 5)
 {% endhighlight %}
 
+##### Algunas operaciones sobre strings
+
+Algunas operaciones sobre el texto (**s**):
+
+| Funciones | Descripción |
+|----------------|:-----------------------------------------------------|
+| len(s)         | longitud |
+| s.capitalize() | Pone en mayusculas la primer letra de una cadena |
+| s.upper()      | Convierte el texto a mayúsculas |
+| s.lower()      | Convierte texto a minúsculas |
+| s.split(’d’)   | Devuelve una lista separadas por el delimitador **d** |
+
+
+{% highlight python %}
+cadena = "Esta es una operación"
+print("La longitud de la cadena es ", len(cadena))
+21
+{% endhighlight %}
+
 # Refencias
 * [Blog sobre números complejos en python][complex]
 
