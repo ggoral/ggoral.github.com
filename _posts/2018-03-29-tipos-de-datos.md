@@ -86,6 +86,8 @@ complex
 
 ##### Operaciones
 
+Nombraremos algunas de las operaciones mas comunes entre los tipos de datos numericos.
+
 | Operador | Operación |
 |----------|---------:|
 | + | Suma |
@@ -98,6 +100,30 @@ complex
 
 #### Booleanos
 
+El tipo de dato booleano contienen dos únicos valores: True y False.
+
+{% highlight python %}
+x = True
+y = False
+
+x and y
+False
+
+x or y
+True
+
+not x
+False
+{% endhighlight %}
+
+#### Cadenas de caracteres (strings)
+
+{% highlight python %}
+nombre = 'gonzalo'.capitalize()
+apellido = "Goral"
+print (nombre +" "+ apellido)
+print (apellido * 5)
+{% endhighlight %}
 
 # Refencias
 * [Blog sobre números complejos en python][complex]
