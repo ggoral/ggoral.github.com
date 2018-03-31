@@ -80,11 +80,21 @@ type(c2)
 complex
 {% endhighlight %}
 
-#### Conversiones
+##### Conversiones
 * La división entre enteros redondea para abajo en Python 2.x, en Python 3.x devuelve un float.
 * Existen funciones que realizan conversiones explicitas, como ser float(), int(), str() y long().
 
+##### Operaciones
 
+| Operador | Operación |
+|----------|---------:|
+| + | Suma |
+| - | Resta|
+| * | Producto |
+| / | Division |
+| // | D. Entera |
+| % | Modulo |
+| ** | Potencia |
 
 #### Booleanos
 
