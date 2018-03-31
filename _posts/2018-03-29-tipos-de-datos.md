@@ -98,6 +98,17 @@ Nombraremos algunas de las operaciones mas comunes entre los tipos de datos nume
 | % | Modulo |
 | ** | Potencia |
 
+Operaciones relacionales:
+
+| Operador | Operación |
+|----------|---------:|
+| == | Comparación |
+| != | Diferenciación |
+| > | Mayor que |
+| < | Menor que |
+| >= | Mayor igual |
+| <= | Menor igual |
+
 #### Booleanos
 
 El tipo de dato booleano contienen dos únicos valores: True y False.
@@ -118,6 +129,8 @@ False
 
 #### Cadenas de caracteres (strings)
 
+Las cadenas de caracteres o strings son listas de caracteres con las cuales podemos operar.
+
 {% highlight python %}
 nombre = 'gonzalo'.capitalize()
 apellido = "Goral"
@@ -127,7 +140,6 @@ print (apellido * 5)
 
 # Refencias
 * [Blog sobre números complejos en python][complex]
-
 
 [PEP0008]: https://www.python.org/dev/peps/pep-0008/
 [PEP0020]: https://www.python.org/dev/peps/pep-0020/
