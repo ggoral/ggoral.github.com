@@ -149,6 +149,7 @@ Algunas operaciones sobre el texto (**s**):
 | s.upper()      | Convierte el texto a mayúsculas |
 | s.lower()      | Convierte texto a minúsculas |
 | s.split(’d’)   | Devuelve una lista separadas por el delimitador **d** |
+| s.join()       | Devuelve un string uniendo los elementos de una lista |
 
 
 {% highlight python %}
