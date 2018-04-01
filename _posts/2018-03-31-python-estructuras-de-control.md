@@ -36,7 +36,7 @@ else:
 {% endhighlight %}
 
 ### if-elif-else
-El **elif** permite anidar condicionales. El **elif** reemplazaría al else if
+El **elif** permite anidar condicionales. Támbien reemplazaría el condicional else if
 
 {% highlight python %}
 if condición:
