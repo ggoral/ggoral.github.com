@@ -10,6 +10,7 @@ ref: 2018-03-31-control-structures
 ## Condicionales
 * Sentencias condicionales: Permiten que comprobar condiciones y que el programa se comporte
 de una manera u otra, de acuerdo a esa condición.
+* Python para evaluar las condiciones utiliza la evaluación con circuito corto
 
 ### if
 {% highlight python %}
@@ -51,6 +52,15 @@ else:
     ...
     sentenciaN
 {% endhighlight %}
+
+### inline condition
+Las condiciones en linea sirven para hacer mas legible el código
+
+{% highlight python %}
+value = "a_value" if True else "another_value"
+print(value)
+{% endhighlight %}
+
 
 
 • Bucles: Permiten ejecutar cierto código un número reiterado de veces hasta que se cumpla una
