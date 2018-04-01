@@ -61,9 +61,6 @@ value = "a_value" if True else "another_value"
 print(value)
 {% endhighlight %}
 
-
-
-• Bucles: Permiten ejecutar cierto código un número reiterado de veces hasta que se cumpla una
+## Bucles
+Los bucles permiten ejecutar cierto código un número reiterado de veces hasta que se cumpla una
 condición.
-• while
-• for .. in
